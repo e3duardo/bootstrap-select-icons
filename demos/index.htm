@@ -1,27 +1,205 @@
 <!DOCTYPE html>
-<html lang="en"><head>
+<html lang="en">
+<head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Starter Template for Bootstrap</title>
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/bootstrap-select.min.css" rel="stylesheet">
-  </head>
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/material-design-iconic-font.min.css" rel="stylesheet">
+</head>
 
-  <body>
-    <div class="container">
-      <h1>Bootstrap Select Icons</h1>
+<body>
+<div class="container">
+    <h1>Bootstrap Select Icons</h1>
 
-      <select class="selectpicker">
-        <option><i class="fa fa-edit"></i> Mustard</option>
-        <option><i class="fa fa-edit"></i> Ketchup</option>
-        <option><i class="fa fa-edit"></i> Relish</option>
-      </select>
+    <br><br><br>
+    <h5>test 01</h5>
+    <ul>
+        <li><i class="fa fa-battery-0" aria-hidden="true"></i> Battery 0</li>
+        <li><i class="fa fa-battery-1" aria-hidden="true"></i> Battery 1</li>
+        <li><i class="fa fa-battery-2" aria-hidden="true"></i> Battery 2</li>
+        <li><i class="fa fa-battery-3" aria-hidden="true"></i> Battery 3</li>
+        <li><i class="fa fa-battery-4" aria-hidden="true"></i> Battery 4</li>
+    </ul>
 
-     
+    <br><br><br>
+    <h5>test 02</h5>
+    <select class="selectpicker">
+        <option><i class="fa fa-battery-0" aria-hidden="true"></i> Battery 0</option>
+        <option><i class="fa fa-battery-1" aria-hidden="true"></i> Battery 1</option>
+        <option><i class="fa fa-battery-2" aria-hidden="true"></i> Battery 2</option>
+        <option><i class="fa fa-battery-3" aria-hidden="true"></i> Battery 3</option>
+        <option><i class="fa fa-battery-4" aria-hidden="true"></i> Battery 4</option>
+    </select>
+
+    <br><br><br>
+    <h5>test 03</h5>
+    <select>
+        <option><i class="fa fa-battery-0" aria-hidden="true"></i> Battery 0</option>
+        <option><i class="fa fa-battery-1" aria-hidden="true"></i> Battery 1</option>
+        <option><i class="fa fa-battery-2" aria-hidden="true"></i> Battery 2</option>
+        <option><i class="fa fa-battery-3" aria-hidden="true"></i> Battery 3</option>
+        <option><i class="fa fa-battery-4" aria-hidden="true"></i> Battery 4</option>
+    </select>
+
+    <br><br><br>
+    <h5>test 04</h5>
+    <select>
+        <option><i class="fa fa-battery-0" aria-hidden="true"></i> Battery 0</option>
+        <option><i class="fa fa-battery-1" aria-hidden="true"></i> Battery 1</option>
+        <option><i class="fa fa-battery-2" aria-hidden="true"></i> Battery 2</option>
+        <option><i class="fa fa-battery-3" aria-hidden="true"></i> Battery 3</option>
+        <option><i class="fa fa-battery-4" aria-hidden="true"></i> Battery 4</option>
+    </select>
+
+    <br><br><br>
+    <h5>test 05</h5>
+    <div class="btn-group">
+        <button type="button" class="btn btn-default dropdown-toggle">
+        <i class="fa fa-battery-0" aria-hidden="true"></i> Battery 0 <span class="caret"></span>
+        </button>
+        <ul class="dropdown-menu">
+            <li><a href="#"><i class="fa fa-battery-0" aria-hidden="true"></i> Battery 0</a></li>
+            <li><a href="#"><i class="fa fa-battery-1" aria-hidden="true"></i> Battery 1</a></li>
+            <li><a href="#"><i class="fa fa-battery-2" aria-hidden="true"></i> Battery 2</a></li>
+            <li><a href="#"><i class="fa fa-battery-3" aria-hidden="true"></i> Battery 3</a></li>
+            <li><a href="#"><i class="fa fa-battery-4" aria-hidden="true"></i> Battery 4</a></li>
+        </ul>
     </div>
-    <script src="js/jquery-1.12.4.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/bootstrap-select.min.js"></script>
-  </body>
+
+
+    <br><br><br>
+    <h5>test 06</h5>
+    <style>
+        .dropdown-menu{
+            padding:5px;
+        }
+        .row{
+            margin:0;
+        }
+        .col-xs-2{
+            border:1px dotted #ccc;
+            padding: 0;
+            text-align: center;
+            margin:1px;
+            width: calc(16.66666667% - 2px);
+            border-radius: 2px;
+        }
+        .icon{
+            text-align: center;
+        }
+    </style>
+    <div style="position: absolute;">
+        <input type="text" class="form-control" placeholder="Search for..." data-toggle="dropdown" aria-haspopup="true"
+               aria-expanded="false" id="teste6">
+        <div class="icon" style="background: #ccc; height: 26px; width: 26px; padding: 4px; position: absolute; right: 4px; top: 4px; border-radius: 2px;"></div>
+        <div class="dropdown-menu">
+            <div class="row">
+                <div class="col-xs-12">Font Awesome
+                </div>
+                <div class="col-xs-2"><a href="#" data-icon="fa fa-battery-0"><i class="fa fa-battery-0" aria-hidden="true"></i><br>
+                </a>
+                </div>
+                <div class="col-xs-2"><a href="#" data-icon="fa fa-battery-1"><i class="fa fa-battery-1" aria-hidden="true"></i><br>
+                </a>
+                </div>
+                <div class="col-xs-2"><a href="#" data-icon="fa fa-battery-2"><i class="fa fa-battery-2" aria-hidden="true"></i><br>
+                </a>
+                </div>
+                <div class="col-xs-2"><a href="#" data-icon="fa fa-battery-3"><i class="fa fa-battery-3" aria-hidden="true"></i><br>
+                </a>
+                </div>
+                <div class="col-xs-2"><a href="#" data-icon="fa fa-battery-4"><i class="fa fa-battery-4" aria-hidden="true"></i><br>
+                </a>
+                </div>
+                <div class="col-xs-2"><a href="#" data-icon="fa fa-file"><i class="fa fa-file" aria-hidden="true"></i><br>
+                </a>
+                </div>
+                <div class="col-xs-2"><a href="#" data-icon="fa fa-file-archive-o"><i class="fa fa-file-archive-o" aria-hidden="true"></i><br>
+                </a>
+                </div>
+                <div class="col-xs-2"><a href="#" data-icon="fa fa-file-audio-o"><i class="fa fa-file-audio-o" aria-hidden="true"></i><br>
+                </a>
+                </div>
+                <div class="col-xs-2"><a href="#" data-icon="fa fa-file-code-o"><i class="fa fa-file-code-o" aria-hidden="true"></i><br>
+                </a>
+                </div>
+                <div class="col-xs-2"><a href="#" data-icon="fa fa-file-excel-o"><i class="fa fa-file-excel-o" aria-hidden="true"></i><br>
+                </a>
+                </div>
+                <div class="col-xs-2"><a href="#" data-icon="fa fa-file-image-o"><i class="fa fa-file-image-o" aria-hidden="true"></i><br>
+                </a>
+                </div>
+                <div class="col-xs-2"><a href="#" data-icon="fa fa-file-video-o"><i class="fa fa-file-video-o" aria-hidden="true"></i><br>
+                </a>
+                </div>
+                <div class="col-xs-2"><a href="#" data-icon="fa fa-file-o"><i class="fa fa-file-o" aria-hidden="true"></i><br>
+                </a>
+                </div>
+                <div class="col-xs-2"><a href="#" data-icon="fa fa-file-pdf-o"><i class="fa fa-file-pdf-o" aria-hidden="true"></i><br>
+                </a>
+                </div>
+                <div class="col-xs-2"><a href="#" data-icon="fa fa-file-image-o"><i class="fa fa-file-image-o" aria-hidden="true"></i><br>
+                </a>
+                </div>
+                <div class="col-xs-2"><a href="#" data-icon="fa fa-file-image-o"><i class="fa fa-file-image-o" aria-hidden="true"></i><br>
+                </a>
+                </div>
+                <div class="col-xs-2"><a href="#" data-icon="fa fa-file-powerpoint-o"><i class="fa fa-file-powerpoint-o" aria-hidden="true"></i><br>
+                </a>
+                </div>
+                <div class="col-xs-2"><a href="#" data-icon="fa fa-file-audio-o"><i class="fa fa-file-audio-o" aria-hidden="true"></i><br>
+                </a>
+                </div>
+                <div class="col-xs-2"><a href="#" data-icon="fa fa-file-text"><i class="fa fa-file-text" aria-hidden="true"></i><br>
+                </a>
+                </div>
+                <div class="col-xs-2"><a href="#" data-icon="fa fa-file-text-o"><i class="fa fa-file-text-o" aria-hidden="true"></i><br>
+                </a>
+                </div>
+                <div class="col-xs-2"><a href="#" data-icon="fa fa-file-video-o"><i class="fa fa-file-video-o" aria-hidden="true"></i><br>
+                </a>
+                </div>
+                <div class="col-xs-2"><a href="#" data-icon="fa fa-file-word-o"><i class="fa fa-file-word-o" aria-hidden="true"></i><br>
+                </a>
+                </div>
+                <div class="col-xs-2"><a href="#" data-icon="fa fa-file-archive-o"><i class="fa fa-file-archive-o" aria-hidden="true"></i><br>
+                </a>
+                </div>
+                <div class="col-xs-12">Material Design Icons
+                </div>
+                <div class="col-xs-2"><a href="#" data-icon="zmdi zmdi-group"><i class="zmdi zmdi-group" aria-hidden="true"></i><br>
+                </a>
+                </div>
+                <div class="col-xs-2"><a href="#" data-icon="zmdi zmdi-rss"><i class="zmdi zmdi-rss" aria-hidden="true"></i><br>
+                </a>
+                </div>
+                <div class="col-xs-2"><a href="#" data-icon="zmdi zmdi-shape"><i class="zmdi zmdi-shape" aria-hidden="true"></i><br>
+                </a>
+                </div>
+                <div class="col-xs-2"><a href="#" data-icon="zmdi zmdi-spinner"><i class="zmdi zmdi-spinner" aria-hidden="true"></i><br>
+                </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</div>
+<script src="js/jquery-1.12.4.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/bootstrap-select.min.js"></script>
+<script>
+    $( document ).ready(function() {
+        //
+        $('a').on( "click", function() {
+            $( '#teste6' ).val($(this).attr('data-icon'));
+            $( '.icon' ).html('<i class="'+$(this).attr('data-icon')+'"></i>');
+        });
+    });
+</script>
+</body>
 </html>
